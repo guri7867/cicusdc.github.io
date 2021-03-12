@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background-image: url(background.jpg);
+	height: auto;
+	width: auto;
+
+	/*margin: 0;
+	padding: 0;*/
+}
+.ul{
+	background: rgb(221,90,38);
+	text-align: left;
+}
+.ul ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	margin-left: 80px;
+
+}
+.ul ul li{
+	float: left;
+	margin-top: 10px;
+	font-size: 80%;
+
+}
+.ul ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+
+}
+.ul1{
+	background: rgb(221,90,38);
+	text-align: right;
+}
+.ul1 ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	margin-right: 70px;
+
+}
+.ul1 ul li{
+	float: left;
+	margin-bottom: 10px;
+	font-size: 100%;
+	width: 40px;
+
+}
+.ul1 ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.ul1 ul li a:hover{
+
+}
+#youtube:hover{
+	color: red;
+}
+#search:hover{
+	color: #8f9a99;
+}
+#facebook:hover{
+	color: #2813f4;
+}
+#google:hover{
+	color: #f23838;
+}
+#twitter:hover{
+	color: #13a7f4;
+}
+#in:hover{
+	color: skyblue;
+}
+.menu-bar{
+	background: rgb(234,232,232);
+	text-align: left;
+	border: 1px solid #8f9a99;
+}
+.menu-bar ul{	
+	display: inline-flex;
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	font-family: sans-serif;
+	font-size: 17px;
+	margin-left: 80px;
+
+}
+.menu-bar ul li{
+    float: left;
+	border-right: 1px solid #8f9a99;
+
+}
+.menu-bar ul li a{
+	display: block;
+	padding: 0 10px;
+	color: red;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 15px;
+
+}
+.menu-bar ul li a:hover{
+	background: rgb(234,232,232);
+}
+.menu-bar ul ul{
+	position: absolute;
+	top: 235px;
+	display: none;
+	margin-left: 0px;
+
+}
+.menu-bar ul li:hover > ul{
+	display: block;
+	background: #fff;
+
+}
+.menu-bar ul ul li{
+	/*width: 150px;*/
+	float: none;
+	display: list-item;
+	position: relative;
+	background: #fff;
+	width: auto;
+}
+
+.logo{
+	width: 150px;
+	height: 100px;
+	margin-left: 150px; 
+}
+.big {
+	font-size: 40px;
+	color: blue;
+	margin-left: 330px;
+	margin-top: -90px;
+	font-family: Arial bold;
+
+}
+.small{
+	font-size: 25px;
+	color: blue;
+	margin-left: 330px;
+	margin-top: 10px;
+}
+.ta{
+	border: 2px solid red;
+	border-radius: 28px;
+	width: 1550px;
+	margin-left: 25px;
+
+
+}
